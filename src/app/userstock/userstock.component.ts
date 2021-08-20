@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClientService } from '../http-client.service';
 import { MarketCapService } from '../users/marketCap.model';
+import { HttpClientService } from '../http-client.service';
+
 
 @Component({
   selector: 'app-userstock',

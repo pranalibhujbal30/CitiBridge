@@ -4,11 +4,13 @@ import { LoginComponent } from './login/login.component';
 import { Userstock } from './users/marketCap.model';
 import { UsersComponent } from './users/users.component';
 import { UserstockComponent } from './userstock/userstock.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   { path: '', component: LoginComponent },
   {path: 'login', component:LoginComponent},
-  { path: 'users', component: UsersComponent },
+  {path: 'home', component:HomeComponent},
+  {path: 'users', component:UsersComponent},
   {path:'userstock',component:UserstockComponent}
   
   
